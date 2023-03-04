@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700|display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrapper {
+    background-color: #3c1053;
+    width: 100vw;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.navbar-brand .fas {
+    margin-right: 5px;
+    color: #78a841;
+    font-size: 30px;
+}
+
+.navbar-brand h3 {
+    font-size: 25px;
+    color: #78a841;
+    margin-top: 8px;
+}
+
+.menu {
+    margin-top: 12px;
+}
+
+.menu li {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    margin: 20px;
+}
+
+.menu li:hover {
+    background-color: #78a841;
+    transition: ease-in .2s;
+}
+
+.menu a:hover {
+    color: #3c1053;
+}
+
+.main {
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+    color: #fff;
+    margin: 0 auto;
+}
+
+h1,
+.footer h3 {
+    font-size: 70px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h4 {
+    margin-left: 17px;
+}
+
+.button {
+    font-size: 20px;
+    width: 200px;
+    padding: 8px;
+    border-radius: 50px;
+    background-color: #78a841;
+    border: none;
+    color: #fff;
+}
+
+.btn-content-info {
+    margin-top: 15px;
+}
+
+
+.button:hover {
+    background-color: #fff;
+    color: #3c1053;
+}
+
+.main img {
+    width: 60%;
+}
+
+.img:hover {
+    filter: grayscale(60%);
+}
+
+.sotial-content li {
+    list-style: none;
+    margin: 20px;
+}
+
+.sotial-content i {
+    color: #78a841;
+    font-size: 25px;
+  }
+
+.sotial-content i:hover {
+    color: #fff;
+}
+
+.wave {
+    width: 100vw;
+    margin-top: -3em;
+}
+
+.about, .products {
+    width: 100vw;
+}
+
+.about-content {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-subltitle {
+    font-size: 20px;
+}
+
+.global-title {
+    font-size: 50px;
+    text-align: center;
+}
+    
+
+.about-content .divider,
+.products .divider {
+    width: 100px;
+    height: 5px;
+    background-color: #3c1053;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.products {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.products-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+.card-img {
+    width: 300px;
+    height: 200px;
+}
+
+.btn-content-card {
+    background-color: #3c1053;
+    margin-top: 20px;
+}
+
+.card-body {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body h3 {
+    margin-bottom: 10px;
+    color: #3c1053;
+}
+
+.card-body .btn-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 100vw;
+    background-color: #3c1053;
+    color: #fff;
+}
+
+.footer .global-title {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.footer .container {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer-text {
+    width: 40%;
+}
+
+.footer-links h4,
+.form h4 {
+ font-size: 30px;
+}
+
+.form {
+    flex-direction: column;
+}
+
+.form input {
+    margin-bottom: 15px;
+    padding: 10px 20px;
+}
+
+.form h4 {
+    margin-bottom: 20px;
+}
